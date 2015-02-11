@@ -42,8 +42,8 @@ def handle_query():
 	tweet = tweets[0].text
 	top_text, bottom_text = helpers.get_meme_text_from_tweet(tweet)
 	image_url = "http://apimeme.com/meme?meme=" + meme + "&top=" + top_text + "&bottom=" + bottom_text
-	image_src = {'image_src': image_url }
-	return render_template('memeify.html', image_src=image_src, twitter_user=user.screen_name)
+	
+	return render_template('memeify.html', image_src=image_url, twitter_user=user.screen_name)
 	
 
 if __name__ == '__main__':

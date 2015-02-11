@@ -46,8 +46,7 @@ def handle_query():
 	
 	# construct apimeme.com url from top and bottom text
 	# !!!
-	# image_src = {'image_src': image_url }
-	# return render_template('memeify.html', image_src=image_src, twitter_user=user.screen_name)
+	# return render_template('memeify.html', image_src=image_url, twitter_user=user.screen_name)
 	
 	return "Im not complete..."
 	

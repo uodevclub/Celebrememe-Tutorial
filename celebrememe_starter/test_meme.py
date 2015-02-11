@@ -1,6 +1,5 @@
 import tweepy
 import urllib
-import re
 
 
 consumer_key = "FWdPbKqjfPgBSPDPgBsy7kMfi"
@@ -10,5 +9,7 @@ access_token_secret = "pJ2GBks0s3o2bqqrBEhjAe0uP7pWj1U9idzcrvXLjUzmv"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
+
+
 
 
